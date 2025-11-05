@@ -1,8 +1,11 @@
 import React from 'react'
+import Swaper from "../components/Swayper"
 
 function Home() {
   return (
-    <div>Home</div>
+    <div className=' bg-[#fcfcfc]'>
+       <Swaper/>
+    </div>
   )
 }
 

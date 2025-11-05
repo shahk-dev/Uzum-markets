@@ -5,6 +5,7 @@ import Container from "./pages/Container";
 import Likeing from "./pages/Likeing";
 import Categorya from "./pages/Categorya";
 import Login from "./features/auth/Login";
+import Swaper from "./components/Swayper";
 import Notfound from "./components/Notfound";
 import { Route , Routes } from "react-router-dom";
 function App() {
@@ -17,6 +18,7 @@ function App() {
                 <Route path="/prodecst" element={<Layout><Prodecst/></Layout>} />
                 <Route path="/categorya" element={<Layout><Categorya/></Layout>} />
                 <Route path="/likeing" element={<Layout><Likeing/></Layout>} />
+                <Route path="/swaper" element={<Layout><Swaper/></Layout>} />
                 <Route path="/containers" element={<Layout><Container/></Layout>} />
                 <Route path="*" element={<Layout><Notfound/></Layout>} />
          </Routes>
